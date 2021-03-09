@@ -31,7 +31,8 @@ class Category extends React.Component {
                 <i className="material-icons">{element.icon}</i>{element.title}
             </li>
         ))
-        // const navLinks = this.props.data.map((data, index)=>(//jsx directly// <li className=> {data.icon}))
+        // const navLinks = this.props.data.map((data, index)=>(//jsx directly// <li className=/ key={index}> {data.icon}))
+        //<React.Fragment></React.Fragment>
 
         return (
             <div className="row">
