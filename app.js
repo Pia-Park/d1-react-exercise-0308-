@@ -38,6 +38,7 @@ const data = [
 
 ReactDOM.render(
     <Category data={data} />,
+    // the name of property 
     document.getElementById('root')
 );
 

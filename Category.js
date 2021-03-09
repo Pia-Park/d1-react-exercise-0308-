@@ -23,6 +23,7 @@ class Category extends React.Component {
     constructor() {
       super()
     }
+
   
     render(){
         const datas = data.map((element, index) => (
@@ -30,6 +31,7 @@ class Category extends React.Component {
                 <i className="material-icons">{element.icon}</i>{element.title}
             </li>
         ))
+        // const navLinks = this.props.data.map((data, index)=>(//jsx directly// <li className=> {data.icon}))
 
         return (
             <div className="row">
